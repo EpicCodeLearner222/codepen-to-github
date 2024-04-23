@@ -1,4 +1,4 @@
-const token = process.env.GITHUB_TOKEN;
+const token = process.env.token;
 
 if (!token) {
   console.error('GitHub token is not set. Please set the GITHUB_TOKEN environment variable.');
